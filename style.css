@@ -3,14 +3,12 @@
     font-family: 'Titillium Web', sans-serif;
     background-color: #9fccfa
 }
-.nav-list{
+.navbar{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
-.nav-list{
-    list-style: none;
-}
+
 .nav-link{
     text-decoration: none;
     font-size: 25px;
@@ -19,6 +17,7 @@
 }
 .nav-items{
     transition: transform 0.2s;
+    list-style: none;
 }
 .nav-items:hover{
     transform: translateY(-5px);
@@ -40,10 +39,3 @@
     border-radius: 30px;
 }
 
-@media (min-width:375px){
-    .nav-list{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-}
