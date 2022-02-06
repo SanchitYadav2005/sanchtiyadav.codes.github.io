@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,19 +9,51 @@
     <title>Sanchit Yadav</title>
     <link rel="icon" href="logo.png">
 </head>
+
 <body>
     <nav class="navbar">
-            <li class="nav-items"><a href="#home" class="nav-link">Home</a></li>
-            <li class="nav-items"><a href="#about" class="nav-link">About</a></li>
-            <li class="nav-items"><a href="#contact" class="nav-link">Contact</a></li>
+        <li class="nav-items"><a href="#home" class="nav-link">Home</a></li>
+        <li class="nav-items"><a href="#about" class="nav-link">About</a></li>
+        <li class="nav-items"><a href="#contact" class="nav-link">Contact</a></li>
     </nav>
-    <section class="home">
+    <section id="home">
         <img src="main.jpg" alt="">
         <h1>Hello and welcome</h1>
         <p>this is Sanchit Yadav, full stack web developer form India</p>
     </section>
-    <section class="about">
-        <p>I am currently studying in class 12th </p>
+    <section id="about">
+        <h2>About</h2>
+        <p>I am currently studying in class 12th and learning Full stack web development. I have worked with react,
+            angular, swift, java, javascirpt, c++, go and some other development related technologies. I am fluient in
+            two languages English and Hindi.</p>
+    </section>
+    <section id="contact">
+        <div class="container">
+            <div style="text-align:center">
+              <h3>Contact Us</h3>
+              <p>Swing by for a cup of coffee, or leave us a message:</p>
+            </div>
+            <div class="row">
+              <div class="column">
+                <form action="/action_page.php">
+                  <label for="fname">First Name</label>
+                  <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                  <label for="lname">Last Name</label>
+                  <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                  <label for="country">Country</label>
+                  <select id="country" name="country">
+                    <option value="australia">Australia</option>
+                    <option value="canada">Canada</option>
+                    <option value="usa">USA</option>
+                  </select>
+                  <label for="subject">Subject</label>
+                  <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+                  <input type="submit" value="Submit">
+                </form>
+              </div>
+            </div>
+          </div>            
     </section>
 </body>
+
 </html>

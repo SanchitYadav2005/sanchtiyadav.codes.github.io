@@ -7,11 +7,12 @@
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    margin-top: 1em;
 }
 
 .nav-link{
     text-decoration: none;
-    font-size: 25px;
+    font-size: 30px;
     color: #001219;
     font-weight: 900;
 }
@@ -22,26 +23,99 @@
 .nav-items:hover{
     transform: translateY(-5px);
 }
-.home{
+#home{
     color: white;
     text-align: center;
 }
-.home h1{
+#home h1{
     margin-bottom: 0;
 }
-.home p{
+#home p{
     margin-top: 0;
     font-size: 35px;
 }
-.home img{
+#home img{
     height: 150px;
-    margin-top: 4em;
+    margin-top: 5em;
     border-radius: 30px;
     box-shadow: 2px 18px 29px 27px #9fccfa;
     transition: all 0.6s;
 }
 
-.home img:hover{
-    transform: scale(2) rotate(1turn);
+#home img:hover{
+    transform: rotate(0.5turn);
+}
+#about{
+    text-align: center;
+    color: white;
 }
 
+#about h2{
+    font-size: 45px;
+    margin-top: 2em;
+    text-decoration: underline;
+}
+
+#about p{
+    padding-top: 0;
+    font-size: 28px;
+    line-height:28px;
+    padding-bottom: 3em;
+}
+
+h3{
+    color: white;
+    font-size: 40px;
+    text-decoration: underline;
+}
+p{
+    color: white;
+    font-size: 25px;
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid white;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Style the container/contact section */
+  .container {
+    border-radius: 5px;
+    background-color: #9fccfa;
+    padding: 10px;
+  }
+  
+  /* Create two columns that float next to eachother */
+  .column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
