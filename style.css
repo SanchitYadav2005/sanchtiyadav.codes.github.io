@@ -40,9 +40,7 @@
     box-shadow: 2px 18px 29px 27px #9fccfa;
     transition: all 0.6s;
 }
-.home img:active{
-    transform: scale(5) rotate(1turn);
-}
+
 .home img:hover{
     transform: scale(2) rotate(1turn);
 }
