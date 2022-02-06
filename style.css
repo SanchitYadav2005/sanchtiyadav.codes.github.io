@@ -41,9 +41,9 @@
     transition: all 0.6s;
 }
 .home img:active{
-    transform: rotate(0.5turn);
+    transform: scale(20px,30px);
 }
-/* .home img:hover{
-    transform: rotate(0.5turn) rotate(0.5turn);
-} */
+.home img:hover{
+    transform: scale(0.5) rotate(1turn);
+}
 
