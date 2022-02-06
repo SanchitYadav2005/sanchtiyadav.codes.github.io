@@ -40,7 +40,7 @@
     border-radius: 30px;
 }
 
-@media (min-width:375px) and (max-with:667px){
+@media (min-width:375px){
     .nav-list{
         display: flex;
         flex-direction: column;
